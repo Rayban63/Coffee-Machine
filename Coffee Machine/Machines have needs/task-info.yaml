@@ -83,6 +83,14 @@ files:
     if __name__ == '__main__':
         CoffeeMachineTest('machine.coffee_machine').run_tests()
   learner_created: false
+- name: machine/coffee_machine.py
+  visible: true
+  text: |
+    print("Starting to make a coffee\nGrinding coffee beans"
+          "\nBoiling water\nMixing boiled water with crushed coffee beans"
+          "\nPouring coffee into the cup\nPouring some milk into the cup"
+          "\nCoffee is ready!")
+  learner_created: true
 feedback_link: https://hyperskill.org/projects/68/stages/367/implement
-status: Unchecked
+status: Solved
 record: -1
